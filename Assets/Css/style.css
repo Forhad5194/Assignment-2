@@ -1,0 +1,490 @@
+/* nav bar css start  */
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+
+}
+
+.logo img {
+    width: 86px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.logo h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo h2 span {
+    color: #FF42A5;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navitem-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nav-icon {
+    background-color: #E7E6E9;
+    height: 56px;
+    width: 262px;
+    border-radius: 10px;
+    margin-left: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icon p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3C354F;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav-icon i {
+    font-size: 30px;
+    color: #F61C0D;
+    cursor: pointer;
+}
+
+/* nav bar css  End  */
+
+/* banner part css start  */
+.banner-container {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+
+}
+
+.banner-info {
+    background-color: #FDFAFE;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner-info h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+.banner-info .main-text {
+    font-size: 95px;
+    font-weight: 600;
+    color: #CC4ECB;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.banner-info .banner-btn .singin {
+    background-color: #FF42A5;
+    border: none;
+    padding: 21px 40px;
+    border-radius: 48px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+}
+
+.banner-btn {
+    margin-top: 40px;
+}
+
+.banner-info .banner-btn .goRogue {
+    background-color: #4EC5F7;
+    border: none;
+    padding: 21px 40px;
+    border-radius: 48px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-right: 24px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+
+}
+
+.next-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    align-items: center;
+
+
+}
+
+.main-container {
+    display: flex;
+}
+
+.container {
+    background-color: #FFF9FC;
+}
+
+
+.next-info .new-text {
+    text-align: end;
+    text-align: right;
+    font-family: Work Sans;
+    color: #FF42A5;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.next-info .deatils {
+    text-align: end;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.next-info {
+    text-align: end;
+}
+
+.next-info .btn-know {
+    background-color: #FF42A5;
+    border: none;
+    padding: 21px 40px;
+    border-radius: 48px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+}
+
+.next-info h1 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* banner part css  End  */
+/* Card part start  */
+.card-container {
+    margin: 0 auto;
+}
+
+.card-info h2 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card-info span {
+    color: #C94FCD;
+}
+
+.card-info p {
+
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-deatils {
+    margin-top: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    cursor: pointer;
+
+}
+
+
+.card-deatils p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+
+}
+
+
+
+
+/* Card part  End  */
+
+/* images banner part 1 start  */
+.more-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.text-part {
+    margin-top: 216px;
+}
+
+.text-part h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-part span {
+    color: #E44BBD;
+}
+
+.text-part p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.img-part {
+    position: relative;
+}
+
+.next-img {
+    position: absolute;
+    bottom: calc(-110px);
+    left: calc(-150px);
+}
+
+/* images banner part 1 End  */
+/* images banner part 2 start  */
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.img-text {
+    margin-top: 216px;
+}
+
+.part-2 {
+    position: relative;
+}
+
+.part-3 {
+    position: absolute;
+    bottom: calc(-120px);
+    left: calc(500px);
+}
+
+.img-text h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-text span {
+    color: #E44BBD;
+}
+
+.img-text p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* images banner part 2  End   */
+
+/* Footer part start  */
+.footer-container {
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: #FF42A5;
+    width: 1920px;
+}
+
+.footer-info {
+    color: white;
+    margin-top: 150px;
+
+}
+
+.footer-info h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer-info p {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.list-part {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.footer-children1 {
+    list-style: none;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.footer-children2 {
+    text-align: right;
+    list-style: none;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.btn-seeAll {
+    background-color: #fff;
+    border: none;
+    padding: 21px;
+    border-radius: 50px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+
+
+
+/* Footer part  End   */
+
+
+/* footer part start  */
+.last-container {
+   align-items: center;
+   text-align: center;
+   background-color: #0B0223;
+   color: #FFFFFF;
+   width: 1920px;
+}
+
+.logo-container {
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.logo-container img {
+    width: 86px;
+    height: 40px;
+    margin-top: 98px;
+}
+.logo-container p {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 132px;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+.logo-container span {
+    color: #FF42A5;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+.footer-icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.PrivacyPolicy{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* footer part  End  */
